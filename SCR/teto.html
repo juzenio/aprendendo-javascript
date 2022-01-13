@@ -1,0 +1,40 @@
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+
+</head>
+
+<body>
+   <input type="number" id="pri"  />
+   <input type="number" id="seg"  />
+   <button id="aperte" nome="aperte" value="2" onclick="clicar()" >
+    soma
+   </button>
+   <script>
+
+     var n1 = window.document.getElementById('seg').value
+     
+     
+     let n = window.document.getElementById('pri').value
+     
+     function clicar(){
+       
+       var teste1 =  Number(window.document.getElementById('pri').value)
+       var teste = Number(window.document.getElementById('seg').value) 
+       
+      alert(`esse é o valor -> ${teste1 + teste}` )
+  }
+    
+      
+   
+ 
+  </script>
+<script src="./pteste.js"></script>
+</body>
+</html>
