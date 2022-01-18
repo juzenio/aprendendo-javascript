@@ -7,8 +7,8 @@ function chamar() {
 
 }
 
-function sum() {
-    return a ** b
+function sum(n) {
+    return n -= 2022
     
   }
 
