@@ -1,16 +1,44 @@
 
 
-function chamar() {
+function exer2(n){
+var resul = []
+
+for (var index = 1; index <= 10; index++) {
+  receber = n * index
+  resul.push(receber)
+  
+}return resul
+ 
+
+
+}
+
+function exer1(inicio,fim) {
+let passo = 2
+var retorno = []
+  
+  while(inicio <= fim) {
+    inicio += passo
+    retorno.push(inicio)
+    
+    
+  }alert(' ep teste' + inicio + fim)
+  return retorno
+  
+  
+
+}
+    
+ 
+
+ 
+ 
 
 
   
 
-}
-
-function sum(n) {
-    return n -= 2022
-    
-  }
+ 
+ 
 
   function soma(a, b) {
     

@@ -16,20 +16,29 @@
    <button id="aperte" nome="aperte" value="2" onclick="clicar()" >
     soma
    </button>
+   <p id = 'para'></p>
+   
    <script>
 
-     var n1 = window.document.getElementById('seg').value
      
-     
-     let n = window.document.getElementById('pri').value
+    
+  
+      var p2 = document.createElement('para2')
+       p2.innerHTML = 'teste do novo paragarafo'
+       document.body.appendChild(p2);
+   
      
      function clicar(){
-       
+      
+
        var te1 =  Number(window.document.getElementById('pri').value)
        var te = Number(window.document.getElementById('seg').value) 
-       var resul = sum(1994)
-       
-      alert(`esse -> ${resul}` )
+       var resul = exer2(te1,te)
+        
+     var resul2 = document.getElementById("para").innerHTML = `<br/> teste ${resul}`;
+     
+     
+     
   }
     
       
