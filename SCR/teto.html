@@ -13,38 +13,33 @@
 <body>
    <input type="number" id="pri"  />
    <input type="number" id="seg"  />
-   <button id="aperte" nome="aperte" value="2" onclick="clicar()" >
+   <button id="aperte" nome="aperte" value="2" onclick ="clicar()" >
     soma
    </button>
    <p id = 'para'></p>
+   <p id = 'para3'> teste don</p>
    
    <script>
 
-     
+  
     
   
-      var p2 = document.createElement('para2')
-       p2.innerHTML = 'teste do novo paragarafo'
-       document.body.appendChild(p2);
    
-     
+
      function clicar(){
       
 
        var te1 =  Number(window.document.getElementById('pri').value)
        var te = Number(window.document.getElementById('seg').value) 
-       var resul = exer2(te1,te)
-        
-     var resul2 = document.getElementById("para").innerHTML = `<br/> teste ${resul}`;
-     
-     
-     
-  }
+       let resul = sum(te1,te)
     
-      
-   
- 
-  </script>
-<script src="./pteste.js"></script>
+    console.log(resul)
+    }
+     
+     
+     
+    
+      </script>
+<script  src="../teste/pteste.js"></script>
 </body>
 </html>
